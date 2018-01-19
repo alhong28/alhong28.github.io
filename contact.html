@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   <head>
 
     <meta charset="UTF-8">
@@ -18,33 +17,30 @@
   </head>
 
   <body>
+
     <!-- Start of navbar -->
     <nav class="navbar navbar-default">
       <div class="container-fluid navbar-custom">
 
         <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-12 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Albert Hong</a>
-            </div>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="index.html">About</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" id="logo">Albert Hong</a>
         </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right navbar-right-custom">
+            <li><a href="contact.html">Contact</a></li><span class="pipe"></span>
+            <li><a href="portfolio.html">Portfolio</a></li><span class="pipe"></span>
+            <li><a href="index.html">About</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
     <!-- End of navbar -->
@@ -53,18 +49,26 @@
     <div class="wrap">
       <div class="container">
         <section class="row">
-          <div class="col-md-7">
-            <section id="portfolio-area">
-              <h1 class="port-header">My Portfolio</h1>
-              <hr class="port-hr"/>
-              <a href="https://floofy.herokuapp.com" target="_blank"><img class="port-imgs" src="assets/images/floofy.jpg" alt="floofy"></a>
-              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
-              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
-              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
-              <img class="port-imgs" src="http://lorempixel.com/233/166" alt="">
-            </section>
+          <div class="col-md-8">
+            <form class="contact-form">
+              <h1 class="contact-form-header">Contact</h1>
+              <hr class="contact-hr"/>
+              <div class="form-group">
+                <label class="label-name" for="name">Name</label>
+                <input type="text" id="name_input" name="user_name" />
+              </div>
+              <div class="form-group">
+                <label class="label-mail" for="mail">E-mail</label>
+                <input type="email" id="mail_input" name="user_mail" />
+              </div>
+              <div class="form-group">
+                <label class="label-msg" for="msg">Message</label><br />
+                <textarea id="msg" name="user_message_input" cols=60></textarea>
+              </div>
+              <button class="submit-btn">Submit</button>
+            </form>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-4">
 
             <!-- Start of Connect With Me Area -->
             <section id="connect-with-me-area">
