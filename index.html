@@ -1,103 +1,234 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Bootstrap Basic Portfolio</title>
-
-    <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css" media="screen">
-
-  </head>
-
-  <body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
-
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-12 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Albert Hong</a>
-            </div>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="index.html">About</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
+    <title>Albert's Portfolio Homepage</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="bootstrap3/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Overpass:100,400|Pathway+Gothic+One" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <div class="container-fluid sidenav">
+        <div class="col-md-12">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
-      </div><!-- /.container-fluid -->
-    </nav>
-    <!-- End of navbar -->
+        
 
-    <!-- Start of content wrap -->
-    <div class="wrap">
-      <div class="container">
-        <section class="row">
-          <div class="col-md-8">
-            <article class="about-me-content">
-              <h1 class="about-me-header">About Me</h1>
-              <hr class="about-me-hr"/>
-              <img src="assets/images/mypic.png" alt="me-picture" id="me-image"/>
-              <p>Albert Hong is an aspiring web developer/designer with a background in Human Resource Management residing in Edison, NJ. He is a recent Rutgers Coding Bootcamp graduate seeking to apply the learning from the program and continue to grow and mature within the field. He is an avid learner with a passion to create, analyze, and strategize. Currently while looking for opportunities, Albert is taking strides in honing his coding skills.</p>
-              <br />
-              <p>When Albert is not coding, he enjoys a diverse set of activies (not all at once, of course). He has been drawing at a young age and has a lifelong aspiration of creating his own graphic novel. He enjoys outdoor activites such as kayaking and hiking and loves to listen to a good tune. He might also consider himself a movie buff.</p>
-            </article>
-          </div>
-          <div class="col-md-4">
 
-            <!-- Start of Connect With Me Area -->
-            <section id="connect-with-me-area">
-              <div class="connect-with-me-content">
-                <h1 class="connect-with-me-header">Connect With Me</h1>
-                <hr />
-                <div id="images">
-                  <a href="https://github.com/alhong28" target="_blank"><img src="assets/images/github.png" alt="github" class="connect-with-me-photo"></a>
-                  <a href="https://www.linkedin.com/in/albert-hong-ba876511a/" target="_blank"><img src="assets/images/linkedin.png" alt="linkedin" class="connect-with-me-photo"></a>
-                  <a href="https://stackoverflow.com/users/8313606/albert-hong" target="_blank"><img src="assets/images/stackoverflow.png" alt="stackoverflow" class="connect-with-me-photo"></a>
-                </div>
-              </div>
-            </section>
-            <!-- End of the Connect With Me Area -->
-
-          </div>
-        </section>
-      </div>
+        <div class="col-md-12 social-icons">
+            <a href="#" target="_blank" class="nav-icon"><i class="fa fa-github"></i></a>
+            <a href="#" target="_blank" class="nav-icon"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:alby.hong@gmail.com" target="_blank" class="nav-icon"><i class="fa fa-envelope"></i></a>
+            <a href="#" class="nav-icon"><i class="fa fa-file-text" target="_blank"></i></a>
+        </div>
     </div>
-    <!-- End of content wrap -->
 
-    <!-- Start of footer -->
-    <footer class="footer">
-      <div class="two-toned-footer-color"></div>
-      <p class="text-muted text-muted-footer text-center">
-        &copy; Copyright 2017 Albert Hong
-      </p>
-    </footer>
-    <!-- End of footer -->
 
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+    <div class="content">
+
+        <div class="container-fluid home-head">
+            <a name="about"></a>
+            <div class="overlay">
+            <div class="row container-width">                
+                <div class="col-sm-12 col-xs-12 col-md-12 home-text">
+                    <h1>A <span id="home-text">web designer/front-end developer</span> based in New York/New Jersey. 
+                        An avid learner with a passion to create, analyze, and strategize 
+                        who is highly interested in UI/UX. A lover of football, martial arts,
+                        films, and art.</h1>
+                </div>
+                <div class="row container-width">
+                    <div class="col-sm-12 col-xs-12 col-md-12 home-text-name">
+                        Albert Hong · (732) 668-7455 · <a href="mailto:alby.hong@gmail.com" target="_blank">alby.hong@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container skill-content">
+            <a name="skills"></a>
+            <div class="row container-width">
+
+                <div class="col-sm-12 col-xs-12 col-md-12 port-title">
+                    <h2>Skills</h2>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="row skill-row">
+                        <div class="col-md-12">
+                            <i class="fa fa-pencil"></i>
+                        </div>
+                        <div class="col-md-12">
+                            <h3>Design</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <p>Fundamentals in Design, Design Theory, and Typography.</p>
+                            <p>Knowledge and experience in software including Photoshop, Sketch, and SAI.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="row skill-row">
+                        <div class="col-md-12">
+                            <i class="fa fa-paint-brush"></i>
+                        </div>
+                        <div class="col-md-12">
+                            <h3>Front-End</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <p>Fundamentals in HTML5, CSS3, Javascript, and jQuery.</p>
+                            <p>Knowledge and experience in frameworks including Twitter Bootstrap and React.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="row skill-row">
+                        <div class="col-md-12">
+                            <i class="fa fa-user-plus"></i>
+                        </div>
+                        <div class="col-md-12">
+                            <h3>Misc.</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <p>Masters in HRM.</p>
+                            <p>Korean Proficiency.</p>
+                            <p>Tae Kwon Do Black Belt</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container portfolio-content">
+            <a name="projects"></a>
+            <div class="row container-width">
+
+                <div class="col-sm-12 col-xs-12 col-md-12 port-title">
+                    <h2>Projects</h2>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12 port-div">
+                    <div>
+                        <a href="www.homesuitehomes.us">
+                            <h3>Home Suite Homes</h3>
+                        </a>
+                    </div>
+                    <div class="category">design, front-end</div>
+                    <div>
+                        <a href="www.homesuitehomes.us"><img src="../assets/images/hsh.png" class="port-img" alt="Homesuitehomes.com"></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12 port-div">
+                    <div>
+                        <a href="https://cryptic-cove-14936.herokuapp.com/">
+                            <h3>Veretes</h3>
+                        </a>
+                    </div>
+                    <div class="category">design, front-end</div>
+                    <div>
+                        <a href="https://cryptic-cove-14936.herokuapp.com/"><img src="../assets/images/veritas.png" class="port-img" alt="veretes.com"></a>
+                    </div>                   
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12 port-div last-two">
+                    <div>
+                        <a href="https://alhong28.github.io/Hangman-Game/">
+                            <h3>MTG Hangman App</h3>
+                        </a>
+                    </div>
+                    <div class="category">front-end</div>
+                    <div>
+                        <a href="https://alhong28.github.io/Hangman-Game/"><img src="../assets/images/mtghangman.jpg" class="port-img" alt="MTG Hangman"></a>
+                    </div>                   
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12 port-div last-two">
+                    <div>
+                        <a href="https://guarded-ridge-20393.herokuapp.com/">
+                            <h3>Star Wars Express App</h3>
+                        </a>
+                    </div>
+                    <div class="category">front-end, back-end</div>
+                    <div>
+                        <a href="https://guarded-ridge-20393.herokuapp.com/"><img src="../assets/images/starwars.jpg" class="port-img" alt="star wars express"></a>
+                    </div>                   
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12 port-div last-two">
+                    <div>
+                        <a href="https://floofy.herokuapp.com">
+                            <h3>Floofy App</h3>
+                        </a>
+                    </div>
+                    <div class="category">full-stack</div>
+                    <div>
+                        <a href="https://floofy.herokuapp.com"><img src="../assets/images/floofy.jpg" class="port-img" alt="Floofy"></a>
+                    </div>                   
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container contact-section">
+            <a name="contact"></a>
+            <div class="row container-width">
+
+                <div class="col-sm-12 col-xs-12 col-md-12 port-title">
+                    <h2>Contact</h2>
+                </div>
+
+                <form action="https://formspree.io/alby.hong@gmail.com" method="POST">
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 form-set">
+                        <label for="fullName">NAME</label>
+                        <input class="form-control" type="text" name="Full Name" id="fullName" placeholder="Name">
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12 form-set">
+                        <label for="email">EMAIL</label>
+                        <input class="form-control" type="email" name="Email" id="email" placeholder="Email@mail.com">
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 col-xs-12 form-set">
+                        <label for="yourMessage">MESSAGE</label>
+                        <textarea class="form-control" name="Message" id="yourMessage" rows="10" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 col-xs-12 btn-wrapper">
+                        <button class="btn btn-primary btn-form" type="submit">SUBMIT</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"
+    integrity="sha256-wS9gmOZBqsqWxgIVgA8Y9WcQOa7PgSIX+rPA0VL2rbQ="
+    crossorigin="anonymous"></script>
+    <script src="bootstrap3/js/bootstrap.min.js"></script>
 
 </html>
