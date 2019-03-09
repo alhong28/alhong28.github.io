@@ -6,7 +6,7 @@ body {
 
 .sidenav {
     height: 100%; 
-    width: 160px;
+    width: 180px;
     position: fixed; 
     z-index: 1; 
     top: 0; 
@@ -14,6 +14,27 @@ body {
     background-color: #2b32ac; 
     overflow-x: hidden; 
     padding-top: 20px;
+}
+
+.sidenav-list {
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-left: 5px;
+}
+
+.sidenav-list > a {
+    margin-top: 35px;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 80px;
+}
+
+.social-icons > a > i {
+    font-size: 40px;
+    padding: 20px;
 }
 
 .sidenav a {
