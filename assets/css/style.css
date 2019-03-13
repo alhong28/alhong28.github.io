@@ -4,11 +4,10 @@ body {
 
 /*nav-bar*/
 
-.sidenav {
+/* #sidenav {
     height: 100%; 
     width: 180px;
     position: fixed; 
-    z-index: 1; 
     top: 0; 
     left: 0;
     background-color: #2b32ac; 
@@ -47,6 +46,85 @@ body {
 
 .sidenav a:hover {
     color: #93e2d3;
+} */
+
+#nav-top {
+	display: none;
+	background-color: #2b32ac;
+	color: #fff;
+}
+
+#nav-brand {
+	color: #fff;
+}
+
+#navbar-button > .navbar-toggle > .icon-bar {
+	background-color: #fff;
+}
+
+.social-icons {
+	text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.social-icons > a {
+	margin: 0 1rem;
+	font-size: 1.45rem;
+}
+
+@media screen and (max-width: 992px) {
+	body {
+		text-align: center;
+	}
+	#nav-side {
+		display: none;
+	}
+	#nav-top {
+		display: block;
+	}
+}
+
+.mb-5 {
+	margin-bottom: 3rem!important;
+}
+
+.nav-icon {
+	color: #fff;
+}
+
+#nav-side {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-height: 100vh;
+	width: 17rem;
+	background-color: #2b32ac;
+	border-radius: 0px;
+	border: none;
+}
+
+#nav-links-custom > li > a {
+	font-size: 1.25rem;
+	color: #fff;
+}
+
+.img-profile {
+	margin: 20% 0;
+}
+
+.ratio {
+	background-image: url("/assets/images/logo.png");
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  width: 100%;
+  background-position: 0;
 }
 
 /*home header*/
