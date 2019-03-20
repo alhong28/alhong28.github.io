@@ -240,17 +240,17 @@ body {
     font-size: 60px;
 }
 
-.port-div > div > a > h3 {
+.port-div > a > h3 {
     color: #2b32ac;
     text-transform: uppercase;
 }
 
-.port-div > div > a {
+.port-div > a {
     text-decoration: none;
     color:  #2b32ac;
 }
 
-.port-div > div > a > h3:hover {
+.port-div > a > h3:hover {
     color: #93e2d3;
     background: #2b32ac;
 }
@@ -319,11 +319,35 @@ textarea {
     .container-width {
         width: 780px;
     }
+    .port-div > a > h3 {
+        font-size: 18px;
+    }
+    .skill-row > div > h3 {
+        font-size: 18px;
+    }
+    .skill-row > div > p {
+        font-size: 15px;
+    }
+    .category {
+        font-size: 15px;
+    }
 }
 
 @media (max-width:768px) {
     .container-width {
         width: 500px;
+    }
+    .port-div > a > h3 {
+        font-size: 24px;
+    }
+    .skill-row > div > h3 {
+        font-size: 24px;
+    }
+    .skill-row > div > p {
+        font-size: 20px;
+    }
+    .category {
+        font-size: 20px;
     }
 }
 
